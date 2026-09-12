@@ -26,4 +26,4 @@ Gmail: zentenocarla20@gmail.com
 
 ## Estado del proyecto
 
-Indicar si el proyecto está finalizado, en desarrollo o en revisión o en revisión final.
+El proyecto inicio el 08/09/2026 y se encuentra en desarrollo, con caducidad para el 11/09/2026.
