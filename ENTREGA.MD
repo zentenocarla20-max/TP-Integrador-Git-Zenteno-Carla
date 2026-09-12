@@ -23,7 +23,7 @@ git switch
 git merge
 git pull
 Descripción del proceso
-Primero cree el repositorio desde GitHub junto con los archivos README.MD y ENTREGA.MD para luego con el comando bajar todo a la rama main
+Primero cree el repositorio llamado TP-Integrador-Git-Zenteno-Carla desde Git con mkdir, cd y git init. Luego cree a los archivos README y ENTREGA.MD para pasarlos del Working Directory al Staging Area utilice un git add, luego git commit -m "Docs:Creación de los archivos MD" para convertirlos en commits en el Local Repository
 
 Dificultades encontradas
 Indicar si apareció algún error, dificultad o conflicto. Explicar brevemente cómo se resolvió.
