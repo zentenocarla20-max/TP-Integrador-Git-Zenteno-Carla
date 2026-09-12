@@ -4,9 +4,10 @@ Nombre y apellido: Zenteno Ortiz Carla Anahi
 Curso: Introducción a Git y GitHub para la Gestión de Proyectos Digitales.
 Fecha de entrega: 11/09/2026
 Enlaces
-Repositorio de GitHub:
-Issue:
-Pull request:
+Repositorio de GitHub:https://github.com/zentenocarla20-max/TP-Integrador-Git-Zenteno-Carla
+Issue:https://github.com/zentenocarla20-max/TP-Integrador-Git-Zenteno-Carla/issues/2
+Pull request:https://github.com/zentenocarla20-max/TP-Integrador-Git-Zenteno-Carla/pull/3
+Comandos principales utilizados
 Comandos principales utilizados
 Indicar los comandos utilizados durante el trabajo:
 
