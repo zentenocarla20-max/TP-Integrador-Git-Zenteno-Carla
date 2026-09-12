@@ -10,20 +10,23 @@ Pull request:
 Comandos principales utilizados
 Indicar los comandos utilizados durante el trabajo:
 
-git init
-git status
-git add
-git commit
-git log --oneline
-git remote add origin
-git remote -v
-git push
-git branch
-git switch
-git merge
-git pull
+git init +
+git status +
+git add +
+git commit +
+git log --oneline +
+git remote add origin +
+git remote -v +
+git push /sube +
+git branch +
+git switch + 
+git merge +
+git pull /trae +
+
 Descripción del proceso
-Primero cree el repositorio llamado TP-Integrador-Git-Zenteno-Carla desde Git con mkdir, cd y git init. Luego cree a los archivos README y ENTREGA.MD para pasarlos del Working Directory al Staging Area utilice un git add, luego git commit -m "Docs:Creación de los archivos MD" para convertirlos en commits en el Local Repository
+
+Primero cree el repositorio llamado TP-Integrador-Git-Zenteno-Carla desde Git con mkdir, cd y git init. Luego cree a los archivos README y ENTREGA.MD para pasarlos del Working Directory al Staging Area utilice un git add, luego git commit -m "Docs:Creación de los archivos MD" para convertirlos en commits en el Local Repository.
+Una vez creados todos los archivos, hice una rama llamada stilos para agregar los styles.css de la calculadora y luego subi todo al Repository Remoto de GitHub con git push, cree la rama con branch pegar_imagenes agrege la carpeta con imagen y luego uni todo a la main con merge. Anteriormente cambie el nombre de la rama master a main con switch.
 
 Dificultades encontradas
 Indicar si apareció algún error, dificultad o conflicto. Explicar brevemente cómo se resolvió.
