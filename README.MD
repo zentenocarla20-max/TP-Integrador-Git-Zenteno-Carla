@@ -14,4 +14,4 @@ Autor / Participantes
 Zenteno Ortiz Carla Anahí Gmail: zentenocarla20@gmail.com
 
 Estado del proyecto
-El proyecto inicio el 08/09/2026 y se encuentra en desarrollo, con caducidad para el 11/09/2026.
+El proyecto inicio el 08/09/2026 y se encuentra en desarrollo, con caducidad para el 11/09/2026
