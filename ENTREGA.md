@@ -28,7 +28,7 @@ Descripción del proceso
 
 Primero cree el repositorio llamado TP-Integrador-Git-Zenteno-Carla desde Git con mkdir, cd y git init. Luego cree a los archivos README y ENTREGA.MD para pasarlos del Working Directory al Staging Area utilice un git add, luego git commit -m "Docs:Creación de los archivos MD" para convertirlos en commits en el Local Repository.
 Hice la union del repositorio local con el remoto a travez de remote add origin  y con remote -v le di el permiso, sumando la SSH y contraseña.
-Una vez creados todos los archivos, agrege el archivo styles.css de la calculadora y luego subi todo al Repository Remoto de GitHub con git push, cree la rama con branch pegar_imagenes agrege la carpeta con imagen y luego uni todo a la main con merge. Anteriormente cambie el nombre de la rama master a main con switch.
+Una vez creados todos los archivos, agrege el archivo styles.css de la calculadora y luego subi todo al Repository Remoto de GitHub con git push, cree la rama con branch pegar_imagenes agrege la carpeta:fotos y luego uni todo a la main con merge. Anteriormente cambie el nombre de la rama master a main con git branch -m nuevo-nombre isertanto git branch para saber cuantas ramas tenia y git switch para viajar entre ramas.
 
 Dificultades encontradas
 Se me dificulto mucho al momento de subir cambios de Git cuando habia realizado cambio en GitHub y todavia no los habia actualizado en mi repositorio local, tambien al momento de unir los repositorios ya que no entendia bien los pasos para lograr el ssh.
