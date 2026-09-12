@@ -1,52 +1,62 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Calculadora</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <main class="calculadora">
 
-        <div class="pantalla">
-            <span>0</span>
+        <!-- Pantalla -->
+        <div class="pantalla" id="pantalla">
+            0
         </div>
 
+        <!-- Botones -->
         <div class="botones">
 
-            <button class="funcion">AC</button>
-            <button class="funcion">+/-</button>
-            <button class="funcion">%</button>
-            <button class="operador">÷</button>
+            <button class="funcion" data-accion="borrar">AC</button>
+            <button class="funcion" data-accion="signo">+/-</button>
+            <button class="funcion" data-accion="porcentaje">%</button>
+            <button class="operador" data-operador="/">÷</button>
 
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="operador">×</button>
+            <button data-numero="7">7</button>
+            <button data-numero="8">8</button>
+            <button data-numero="9">9</button>
+            <button class="operador" data-operador="*">×</button>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operador">−</button>
+            <button data-numero="4">4</button>
+            <button data-numero="5">5</button>
+            <button data-numero="6">6</button>
+            <button class="operador" data-operador="-">−</button>
 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operador">+</button>
+            <button data-numero="1">1</button>
+            <button data-numero="2">2</button>
+            <button data-numero="3">3</button>
+            <button class="operador" data-operador="+">+</button>
 
-            <button class="cero">0</button>
-            <button>.</button>
-            <button class="igual">=</button>
+            <button class="cero" data-numero="0">0</button>
+            <button data-numero=".">.</button>
+            <button class="igual" data-accion="igual">=</button>
 
         </div>
 
     </main>
 
+    <!-- Conexión con JavaScript -->
+    <script src="script.js"></script>
+
 </body>
+
 </html>
+```
 

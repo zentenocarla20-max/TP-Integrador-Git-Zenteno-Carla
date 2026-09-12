@@ -1,7 +1,5 @@
 
-/* ------------------------------
-   CONFIGURACIÓN GENERAL
------------------------------- */
+/* CONFIGURACIÓN GENERAL */
 
 * {
     margin: 0;
@@ -22,9 +20,7 @@ body {
 }
 
 
-/* ------------------------------
-   CALCULADORA
------------------------------- */
+/* CALCULADORA */
 
 .calculadora {
     width: 320px;
@@ -35,13 +31,11 @@ body {
 
     border-radius: 20px;
 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 
-/* ------------------------------
-   PANTALLA
------------------------------- */
+/* PANTALLA */
 
 .pantalla {
     width: 100%;
@@ -58,20 +52,16 @@ body {
 
     border-radius: 12px;
 
-    overflow: hidden;
-}
+    color: #222222;
 
-.pantalla span {
     font-size: 36px;
     font-weight: bold;
 
-    color: #222222;
+    overflow: hidden;
 }
 
 
-/* ------------------------------
-   BOTONES
------------------------------- */
+/* BOTONES */
 
 .botones {
     display: grid;
@@ -99,23 +89,21 @@ button {
 }
 
 
-/* Efecto al pasar el mouse */
+/* EFECTO AL PASAR EL MOUSE */
 
 button:hover {
-    background-color: #555555;
+    background-color: #5a5a5a;
 }
 
 
-/* Efecto al presionar */
+/* EFECTO AL PRESIONAR */
 
 button:active {
     transform: scale(0.95);
 }
 
 
-/* ------------------------------
-   BOTONES ESPECIALES
------------------------------- */
+/* BOTONES DE FUNCIÓN */
 
 .funcion {
     background-color: #777777;
@@ -126,6 +114,8 @@ button:active {
 }
 
 
+/* OPERADORES */
+
 .operador {
     background-color: #f39c12;
 }
@@ -134,6 +124,8 @@ button:active {
     background-color: #f5b041;
 }
 
+
+/* BOTÓN IGUAL */
 
 .igual {
     background-color: #27ae60;
@@ -144,18 +136,14 @@ button:active {
 }
 
 
-/* ------------------------------
-   BOTÓN CERO
------------------------------- */
+/* BOTÓN CERO */
 
 .cero {
     grid-column: span 2;
 }
 
 
-/* ------------------------------
-   RESPONSIVE
------------------------------- */
+/* RESPONSIVE */
 
 @media (max-width: 400px) {
 
@@ -164,17 +152,13 @@ button:active {
         max-width: 320px;
     }
 
+    .pantalla {
+        height: 70px;
+        font-size: 30px;
+    }
+
     button {
         height: 55px;
         font-size: 20px;
     }
-
-    .pantalla {
-        height: 70px;
-    }
-
-    .pantalla span {
-        font-size: 30px;
-    }
 }
-
