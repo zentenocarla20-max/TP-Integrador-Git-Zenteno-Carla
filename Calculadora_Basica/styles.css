@@ -1,0 +1,180 @@
+
+/* ------------------------------
+   CONFIGURACIÓN GENERAL
+------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e5e5e5;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* ------------------------------
+   CALCULADORA
+------------------------------ */
+
+.calculadora {
+    width: 320px;
+
+    padding: 20px;
+
+    background-color: #222222;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ------------------------------
+   PANTALLA
+------------------------------ */
+
+.pantalla {
+    width: 100%;
+    height: 80px;
+
+    margin-bottom: 20px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: #eeeeee;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.pantalla span {
+    font-size: 36px;
+    font-weight: bold;
+
+    color: #222222;
+}
+
+
+/* ------------------------------
+   BOTONES
+------------------------------ */
+
+.botones {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #444444;
+
+    color: white;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* Efecto al pasar el mouse */
+
+button:hover {
+    background-color: #555555;
+}
+
+
+/* Efecto al presionar */
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+/* ------------------------------
+   BOTONES ESPECIALES
+------------------------------ */
+
+.funcion {
+    background-color: #777777;
+}
+
+.funcion:hover {
+    background-color: #888888;
+}
+
+
+.operador {
+    background-color: #f39c12;
+}
+
+.operador:hover {
+    background-color: #f5b041;
+}
+
+
+.igual {
+    background-color: #27ae60;
+}
+
+.igual:hover {
+    background-color: #2ecc71;
+}
+
+
+/* ------------------------------
+   BOTÓN CERO
+------------------------------ */
+
+.cero {
+    grid-column: span 2;
+}
+
+
+/* ------------------------------
+   RESPONSIVE
+------------------------------ */
+
+@media (max-width: 400px) {
+
+    .calculadora {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    button {
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .pantalla {
+        height: 70px;
+    }
+
+    .pantalla span {
+        font-size: 30px;
+    }
+}
+
